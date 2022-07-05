@@ -1,5 +1,0 @@
-sudo docker stop ib_mysql ib_phpmyadmin ib_rabbitmq
-sudo docker rm ib_mysql ib_phpmyadmin ib_rabbitmq
-sudo docker network rm ib_spinup_default
-sudo docker-compose up -d
-sudo docker ps
