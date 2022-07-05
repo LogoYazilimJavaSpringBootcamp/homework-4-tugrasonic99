@@ -1,7 +1,9 @@
 # 1. Mysql veya PostgreSQL ile controller katmanlarının çalışabilmesi için gerekli repository katmanlarını yazın. Ayrıca isbasi-email-service kuyruktan veriyi okuduktan sonra gerekli model class’ını oluşturup tabloya kaydedin.(60 Puan)
 
 İşbaşı projesinde UserController üzerinden RabbitMQ'ya gönderilecek dummy Email değer endpoint'i hazırlandı: localhost:8080/users/dummies (POST)
+
 İşbaşı Email projesinde Email modeli table entity haline getirildi. EmailListener'dan alınan değerler direkt olarak emails tablosuna kaydedilecek.
+
 EmailRepository ve EmailService kullanılarak emails tablosu EmailController üzerinden görüntülenebilecek: localhost:8080/emails/ (GET)
 
 
